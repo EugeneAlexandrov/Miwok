@@ -33,7 +33,7 @@ public class ColorsFragment extends Fragment {
                 // short amount of time. The AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK case means that
                 // our app is allowed to continue playing sound but at a lower volume. We'll treat
                 // both cases the same way because our app is playing short sound files.
-
+                // это версия 1.1
                 // Pause playback and reset player to the start of the file. That way, we can
                 // play the word from the beginning when we resume playback.
                 mPlayer.pause();
